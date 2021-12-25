@@ -8,7 +8,7 @@ import java.io.File;
  **/
 public class ConfigUtils {
 
-    private static final String MAIN_DIRECTORY_NAME = "server";
+    private static final String MAIN_DIRECTORY_NAME = "office-server";
     private static final String OFFICE_PLUGIN_NAME = "office-plugin";
 
     public static String getHomePath() {

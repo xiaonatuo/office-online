@@ -26,5 +26,5 @@ nbdist/
 ### VS Code ###
 .vscode/
 
-server/src/main/cache/
-server/src/main/file/
+office-server/src/main/cache/
+office-server/src/main/file/
