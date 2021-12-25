@@ -58,10 +58,9 @@ public class DownloadUtils {
             logger.error("文件下载失败，url：{}", urlStr, e);
             response.setCode(1);
             response.setContent(null);
+            response.setMsg("文件地址请求异常");
             if (e instanceof FileNotFoundException) {
                 response.setMsg("文件不存在!!!");
-            } else {
-                response.setMsg(e.getMessage());
             }
             return response;
         }
