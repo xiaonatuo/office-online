@@ -24,7 +24,6 @@
             <includes>
                 <include>*.tar.gz</include>
             </includes>
-            <lineEnding>unix</lineEnding>
         </fileSet>
         <fileSet>
             <directory>src/main/config</directory>

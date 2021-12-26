@@ -19,7 +19,7 @@
 
     <modules>
         <module>office-plugin</module>
-        <module>web-server</module>
+        <module>office-server</module>
     </modules>
 
     <name>office-online</name>

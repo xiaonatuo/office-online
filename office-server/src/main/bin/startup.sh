@@ -2,7 +2,7 @@
 #
 #
 #############################
-# First_Author:  凯京科技
+# First_Author:
 # Second_Author:  sanxi
 # Version: 1.1
 # Date:    2021/09/17
@@ -51,7 +51,7 @@ else
 
   ## 启动kkFileView
   echo "Starting kkFileView..."
-  nohup java -Dfile.encoding=UTF-8 -Dspring.config.location=../config/application.properties -jar web-server-4.1.0-SNAPSHOT.jar > ../log/kkFileView.log 2>&1 &
+  nohup java -Dfile.encoding=UTF-8 -Dspring.config.location=../config/application.properties -jar office-server-4.1.0-SNAPSHOT.jar > ../log/kkFileView.log 2>&1 &
   echo "Please execute ./showlog.sh to check log for more information"
   PROCESS=$(ps -ef | grep kkFileView | awk 'NR==1{print $2}')
   # 启动成功后将进程号写入pid文件
