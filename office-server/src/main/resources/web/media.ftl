@@ -12,8 +12,10 @@
         }
 
         .m {
-            width: 1024px;
             margin: 0 auto;
+            max-width: 100%;
+            max-height: 100%;
+            overflow: hidden;
         }
     </style>
 </head>
