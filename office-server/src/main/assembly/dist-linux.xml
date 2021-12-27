@@ -22,7 +22,7 @@
             <directory>lib</directory>
             <outputDirectory>${file.separator}office-package</outputDirectory>
             <includes>
-                <include>*.tar.gz</include>
+                <include>*.tar.gz.*</include>
             </includes>
         </fileSet>
         <fileSet>

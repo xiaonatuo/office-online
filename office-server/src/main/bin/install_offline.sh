@@ -14,7 +14,7 @@ install_redhat() {
 }
 
 install_ubuntu() {
-   cp ../office-package/LibreOffice_7_deb.tar.gz /tmp/LibreOffice_7_deb.tar.gz && cd /tmp && tar -zxf /tmp/LibreOffice_7_deb.tar.gz && cd /tmp/LibreOffice_7.1.4.2_Linux_x86-64_deb/DEBS
+   cp ../office-package/LibreOffice_7_deb.tar.gz.* /tmp/ && cd /tmp && cat /tmp/LibreOffice_7_deb.tar.gz.* | tar -xz && cd /tmp/LibreOffice_7.1.4.2_Linux_x86-64_deb/DEBS
    echo $?
  if [ $? -eq 0 ];then
      dpkg -i *.deb
